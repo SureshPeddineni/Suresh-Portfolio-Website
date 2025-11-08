@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Oleo+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin: auto; /* keeps it centered both horizontally & vertically */
+    max-width: 800px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 2.5rem;
+    color: #2563eb;
+    margin-bottom: 20px;
+    font-family: "Bungee", sans-serif;
+}
+
+
+.img {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px; 
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  height: 200px;
+}
+
+.section-title {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    color: #a31682;
+    border-bottom: 3px solid #16a34a;
+    display: block;           
+    width: fit-content;       
+    margin-left: auto;        
+    margin-right: auto;       
+    padding-bottom: 5px;
+    font-family: "Bungee", sans-serif;
+}
+
+.one{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    color: #a31682;
+    border-bottom: 3px solid #16a34a;
+    display: block;           
+    width: fit-content;       
+    margin-left: auto;        
+    margin-right: auto;   
+    font-family: "Bungee", sans-serif;    
+}
+
+
+.keyfeatures {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 15px;
+    text-align: left;
+    font-family: "Oleo Script", system-ui;
+}
+
+.keyfeatures li {
+    background: #fff0f3;
+    border-left: 5px solid #e11d48;
+    padding: 12px 15px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: transform 0.2s, background 0.3s;
+}
+
+.keyfeatures li:hover {
+    transform: translateY(-4px);
+    background: #ffe4e6;
+}
+
+
+.description {
+    text-align: left;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #444;
+    background: #f9fafb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: inset 0 2px 6px rgba(0,0,0,0.05);
+    font-family: "Oleo Script", system-ui;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 28px;
+    background: #2563eb;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background: #1e40af;
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(37,99,235,0.3);
+}
+
+
+
+.technologies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+  
+  height: 200px;
+  width: 500px;
+}
+
+
+.logo:hover {
+    transform: scale(1.1);
+}
